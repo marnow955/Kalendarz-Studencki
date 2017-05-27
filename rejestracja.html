@@ -1,0 +1,30 @@
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Rejestracja</title>
+	
+	<meta name="description" content="Twój najlepszy remainder" />
+	<meta name="keywords" content="słowa, kluczowe, wypisane, po, porzecinku" />
+	
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form class="register-form" id="rejestracja-form" action="register.py" method="post">
+				<input type="text" placeholder="Imię" name = "name"required/>
+				<input type="text" placeholder="Nazwisko" name = "surname" required/>
+				<input type="email" placeholder="e-mail" name = "email" required/>
+				<input type="password" placeholder="Hasło" name = "password1" required/>
+				<input type="password" placeholder="Powtórz hasło" name = "password2" required/>
+				<input type="submit" value="Rejestruj">
+				<p class="message">Masz już konto? <a href="index.html">Zaloguj się</a></p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
